@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #f0f8ff; /* Fondo pastel suave */
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableContainer {
+    width: 100%;
+    max-width: 800px;
+    overflow-x: auto;
+    margin-bottom: 30px; /* Separación del botón */
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff; /* Fondo blanco para contraste */
+}
+
+.table th, .table td {
+    text-align: center; /* Centrar el texto */
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #0070f3; /* Cabecera profesional en azul */
+    color: white;
+    font-weight: bold;
+}
+.table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Rayado suave */
+}
+
+.table tr:hover {
+    background-color: #e0f5ff; /* Efecto hover */
+}
+
+.pendiente {
+    color: #d9534f; /* Rojo suave */
+    font-weight: bold;
+}
+
+.entregado {
+    color: #5cb85c; /* Verde pastel */
+    font-weight: bold;
+}
+
+.backButton {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #0070f3; /* Botón coherente con los colores */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.backButton:hover {
+    background-color: #005bb5; /* Efecto hover */
+}
+
+.error {
+    color: #d9534f;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}

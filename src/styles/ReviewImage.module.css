@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f0f8ff; /* Color pastel */
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 28px; /* Tamaño más grande */
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.imagePreview {
+  width: 100%;
+  max-width: 600px; /* Hacer la imagen más grande */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más notoria */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Separación entre botones */
+  margin-top: 20px;
+}
+
+.captureButton,
+.sendButton,
+.backButton {
+  padding: 15px 30px; /* Hacer botones más grandes */
+  font-size: 16px; /* Incrementar tamaño de texto */
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.captureButton {
+  background-color: #ff7043; /* Naranja */
+}
+
+.captureButton:hover {
+  background-color: #d84315;
+  transform: scale(1.05); /* Efecto hover */
+}
+
+.sendButton {
+  background-color: #4caf50; /* Verde */
+}
+
+.sendButton:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+.backButton {
+  background-color: #0070f3; /* Azul */
+}
+
+.backButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.backButtonFullWidth {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
